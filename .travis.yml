@@ -1,0 +1,9 @@
+sudo: required
+
+services:
+  - docker
+
+script: make ci
+
+after_success:
+  - codecov
