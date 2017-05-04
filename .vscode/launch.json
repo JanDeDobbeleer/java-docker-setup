@@ -1,0 +1,36 @@
+{
+    "version": "0.2.0",
+    "command": "javac",
+    "isShellCommand": true,
+    "showOutput": "always",
+    "isWatching": true,
+    "suppressTaskName": true,
+    "configurations": [{
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "cwd": "${workspaceRoot}",
+            "startupClass": "App",
+            "sourcePath": [
+                "${workspaceRoot}/src/main/java"
+            ],
+            "options": [
+                "-classpath",
+                "${workspaceRoot}/build/classes/main"
+            ]
+        },
+        {
+            "name": "Docker",
+            "type": "java",
+            "request": "attach",
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": "debug",
+            "startupClass": "App",
+            "remotePort": 1044,
+            "sourcePath": [
+                "${workspaceRoot}/src/main/java"
+            ]
+        }
+    ]
+}

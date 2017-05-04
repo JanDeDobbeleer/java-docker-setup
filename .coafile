@@ -1,0 +1,15 @@
+[Default]
+files = src/**/*.java
+language = java
+
+[SPACES]
+bears = SpaceConsistencyBear
+use_spaces = True
+
+[PMD]
+bears = JavaPMDBear
+check_optimizations = true
+check_naming = false
+
+[TODOS]
+bears = KeywordBear

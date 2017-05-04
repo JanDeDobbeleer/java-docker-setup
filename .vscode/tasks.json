@@ -1,0 +1,19 @@
+{
+    "version": "0.1.0",
+    "tasks": [
+        {
+            "taskName": "build",
+            "command": "make",
+            "args": ["build"],
+            "isShellCommand": true,
+            "isBackground": false
+        },
+        {
+            "taskName": "debug",
+            "command": "make",
+            "args": ["debug"],
+            "isShellCommand": true,
+            "isBackground": false
+        }
+    ]
+}
