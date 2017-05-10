@@ -6,7 +6,7 @@
 
 Welcome to my sample project on how to setup a Java environment using [Docker][docker] and Visual Studio Code on Linux. This project uses 2 containers, one to build and debug the code, and a second one to run [coala][coala] validation tests.
 
-The setup contains all the configuration you need to debug in vscode out of the box, simply press `F5` to run and once the conatiner is up and running, press `F5` again to debug the code.
+The setup contains all the configuration you need to debug in vscode out of the box, simply press `F5` to run and once the container is up and running, press `F5` again to debug the code.
 
 The code contains build files for [circle.io][circle] and [Travis][travis] while the coverage is being handled by [codecov][codecov]
 
